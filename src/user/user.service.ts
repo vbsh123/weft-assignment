@@ -3,8 +3,8 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { EntityManager, Repository } from 'typeorm';
 import { User } from './user.entity';
 import { UpdateUserStatusDto, UserStatus } from './user.dto';
-import { Group } from 'src/group/group.entity';
-import { GroupStatus } from 'src/group/group.dto';
+import { Group } from '../group/group.entity';
+import { GroupStatus } from '../group/group.dto';
 
 @Injectable()
 export class UserService {
